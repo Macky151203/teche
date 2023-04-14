@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    /* background-color: aquamarine; */
+    position: relative;
+    top: 40px;
+    
+    width: 100vw;
+    height:90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.left{
+    padding: 4px;
+    /* background-color: beige; */
+    width: 480px;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.right{
+    padding: 4px;
+    /* background-color: antiquewhite; */
+    width: 480px;
+    height: 75vh;
+   
+}
+.rightimg{
+    padding-left: 80px;
+}
+.left1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.left1p{
+    margin-left: 4px;
+}
+.left2{
+    
+    font-size: 25px;
+    width: 70%;
+    /* background-color: brown; */
+    margin-bottom: 15px;
+}
+.left3{
+    /* background-color: aqua; */
+    width: 80%;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.left4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.email{
+    height: 50px;
+    width: 240px;
+    margin-right: 10px;
+    padding-left: 20px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.button{
+    height: 52px;
+    background-color: rgb(0, 80, 252);
+    width: 150px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(70, 129, 255);
+}
+
+
+@media only screen and (max-width: 400px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 90%;
+        position: relative;
+        left: -10px;
+        
+    }
+    .left1{
+        text-align: center;
+    }
+    .left2{
+        width: 100%;
+        font-size: 15px;
+        text-align: left;
+    }
+    .left3{
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+    }
+    .left4{
+        flex-direction: column;
+        
+        
+    }
+    .button{
+        width: 97%;
+        
+    }
+    .email{
+        width: 90%;
+        padding-left: 10;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+  }
+  
